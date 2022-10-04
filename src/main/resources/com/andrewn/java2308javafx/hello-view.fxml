@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" minHeight="400.0" minWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrewn.java2308javafx.HelloController">
+    <Label fx:id="firstLabel" onMouseEntered="#enteredFirstLabel" onMouseExited="#exitedFirstLabel" text="Это приложение JavaFX" />
+    <Label fx:id="labelNoText" />
+    <Button onAction="#buttonClick" text="Нажми меня" />
+<!--    <Button text="Button1" fx:id="button1" onAction="#button1Click"/>-->
+<!--    <Button text="Button2" fx:id="button2" onAction="#button2Click"/>-->
+</VBox>
